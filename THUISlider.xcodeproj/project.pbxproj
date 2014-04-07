@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91136BB918F255C000161655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91136BB818F255C000161655 /* Foundation.framework */; };
+		91136BBB18F255C000161655 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91136BBA18F255C000161655 /* CoreGraphics.framework */; };
+		91136BBD18F255C000161655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91136BBC18F255C000161655 /* UIKit.framework */; };
+		91136BC318F255C000161655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91136BC118F255C000161655 /* InfoPlist.strings */; };
+		91136BC518F255C000161655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91136BC418F255C000161655 /* main.m */; };
+		91136BC918F255C000161655 /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91136BC818F255C000161655 /* THAppDelegate.m */; };
+		91136BCC18F255C000161655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91136BCA18F255C000161655 /* Main.storyboard */; };
+		91136BCF18F255C000161655 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91136BCE18F255C000161655 /* THViewController.m */; };
+		91136BD118F255C000161655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91136BD018F255C000161655 /* Images.xcassets */; };
+		91136BD818F255C000161655 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91136BD718F255C000161655 /* XCTest.framework */; };
+		91136BD918F255C000161655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91136BB818F255C000161655 /* Foundation.framework */; };
+		91136BDA18F255C000161655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91136BBC18F255C000161655 /* UIKit.framework */; };
+		91136BE218F255C000161655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91136BE018F255C000161655 /* InfoPlist.strings */; };
+		91136BE418F255C000161655 /* THUISliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91136BE318F255C000161655 /* THUISliderTests.m */; };
+		91AD176818F26E3F005F6B28 /* THSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AD176718F26E3F005F6B28 /* THSlider.m */; };
+		91AD176A18F26E6D005F6B28 /* thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AD176918F26E6D005F6B28 /* thumb@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91136BDB18F255C000161655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91136BAD18F255C000161655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91136BB418F255C000161655;
+			remoteInfo = THUISlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91136BB518F255C000161655 /* THUISlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THUISlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91136BB818F255C000161655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91136BBA18F255C000161655 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91136BBC18F255C000161655 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91136BC018F255C000161655 /* THUISlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THUISlider-Info.plist"; sourceTree = "<group>"; };
+		91136BC218F255C000161655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91136BC418F255C000161655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91136BC618F255C000161655 /* THUISlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THUISlider-Prefix.pch"; sourceTree = "<group>"; };
+		91136BC718F255C000161655 /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		91136BC818F255C000161655 /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		91136BCB18F255C000161655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91136BCD18F255C000161655 /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		91136BCE18F255C000161655 /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		91136BD018F255C000161655 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91136BD618F255C000161655 /* THUISliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THUISliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91136BD718F255C000161655 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91136BDF18F255C000161655 /* THUISliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THUISliderTests-Info.plist"; sourceTree = "<group>"; };
+		91136BE118F255C000161655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91136BE318F255C000161655 /* THUISliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THUISliderTests.m; sourceTree = "<group>"; };
+		91AD176618F26E3F005F6B28 /* THSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSlider.h; sourceTree = "<group>"; };
+		91AD176718F26E3F005F6B28 /* THSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSlider.m; sourceTree = "<group>"; };
+		91AD176918F26E6D005F6B28 /* thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91136BB218F255C000161655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91136BBB18F255C000161655 /* CoreGraphics.framework in Frameworks */,
+				91136BBD18F255C000161655 /* UIKit.framework in Frameworks */,
+				91136BB918F255C000161655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91136BD318F255C000161655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91136BD818F255C000161655 /* XCTest.framework in Frameworks */,
+				91136BDA18F255C000161655 /* UIKit.framework in Frameworks */,
+				91136BD918F255C000161655 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91136BAC18F255C000161655 = {
+			isa = PBXGroup;
+			children = (
+				91AD176518F26E3F005F6B28 /* THSlider */,
+				91136BBE18F255C000161655 /* THUISlider */,
+				91136BDD18F255C000161655 /* THUISliderTests */,
+				91136BB718F255C000161655 /* Frameworks */,
+				91136BB618F255C000161655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91136BB618F255C000161655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91136BB518F255C000161655 /* THUISlider.app */,
+				91136BD618F255C000161655 /* THUISliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91136BB718F255C000161655 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91136BB818F255C000161655 /* Foundation.framework */,
+				91136BBA18F255C000161655 /* CoreGraphics.framework */,
+				91136BBC18F255C000161655 /* UIKit.framework */,
+				91136BD718F255C000161655 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91136BBE18F255C000161655 /* THUISlider */ = {
+			isa = PBXGroup;
+			children = (
+				91136BC718F255C000161655 /* THAppDelegate.h */,
+				91136BC818F255C000161655 /* THAppDelegate.m */,
+				91136BCA18F255C000161655 /* Main.storyboard */,
+				91136BCD18F255C000161655 /* THViewController.h */,
+				91136BCE18F255C000161655 /* THViewController.m */,
+				91136BD018F255C000161655 /* Images.xcassets */,
+				91136BBF18F255C000161655 /* Supporting Files */,
+			);
+			name = THUISlider;
+			path = THUISlider;
+			sourceTree = "<group>";
+		};
+		91136BBF18F255C000161655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91AD176918F26E6D005F6B28 /* thumb@2x.png */,
+				91136BC018F255C000161655 /* THUISlider-Info.plist */,
+				91136BC118F255C000161655 /* InfoPlist.strings */,
+				91136BC418F255C000161655 /* main.m */,
+				91136BC618F255C000161655 /* THUISlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91136BDD18F255C000161655 /* THUISliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				91136BE318F255C000161655 /* THUISliderTests.m */,
+				91136BDE18F255C000161655 /* Supporting Files */,
+			);
+			name = THUISliderTests;
+			path = THUISliderTests;
+			sourceTree = "<group>";
+		};
+		91136BDE18F255C000161655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91136BDF18F255C000161655 /* THUISliderTests-Info.plist */,
+				91136BE018F255C000161655 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91AD176518F26E3F005F6B28 /* THSlider */ = {
+			isa = PBXGroup;
+			children = (
+				91AD176618F26E3F005F6B28 /* THSlider.h */,
+				91AD176718F26E3F005F6B28 /* THSlider.m */,
+			);
+			path = THSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91136BB418F255C000161655 /* THUISlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91136BE718F255C000161655 /* Build configuration list for PBXNativeTarget "THUISlider" */;
+			buildPhases = (
+				91136BB118F255C000161655 /* Sources */,
+				91136BB218F255C000161655 /* Frameworks */,
+				91136BB318F255C000161655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THUISlider;
+			productName = THUISlider;
+			productReference = 91136BB518F255C000161655 /* THUISlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91136BD518F255C000161655 /* THUISliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91136BEA18F255C000161655 /* Build configuration list for PBXNativeTarget "THUISliderTests" */;
+			buildPhases = (
+				91136BD218F255C000161655 /* Sources */,
+				91136BD318F255C000161655 /* Frameworks */,
+				91136BD418F255C000161655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91136BDC18F255C000161655 /* PBXTargetDependency */,
+			);
+			name = THUISliderTests;
+			productName = THUISliderTests;
+			productReference = 91136BD618F255C000161655 /* THUISliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91136BAD18F255C000161655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "lazy-ios-thuai";
+				TargetAttributes = {
+					91136BD518F255C000161655 = {
+						TestTargetID = 91136BB418F255C000161655;
+					};
+				};
+			};
+			buildConfigurationList = 91136BB018F255C000161655 /* Build configuration list for PBXProject "THUISlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91136BAC18F255C000161655;
+			productRefGroup = 91136BB618F255C000161655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91136BB418F255C000161655 /* THUISlider */,
+				91136BD518F255C000161655 /* THUISliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91136BB318F255C000161655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AD176A18F26E6D005F6B28 /* thumb@2x.png in Resources */,
+				91136BD118F255C000161655 /* Images.xcassets in Resources */,
+				91136BC318F255C000161655 /* InfoPlist.strings in Resources */,
+				91136BCC18F255C000161655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91136BD418F255C000161655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91136BE218F255C000161655 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91136BB118F255C000161655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AD176818F26E3F005F6B28 /* THSlider.m in Sources */,
+				91136BCF18F255C000161655 /* THViewController.m in Sources */,
+				91136BC918F255C000161655 /* THAppDelegate.m in Sources */,
+				91136BC518F255C000161655 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91136BD218F255C000161655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91136BE418F255C000161655 /* THUISliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91136BDC18F255C000161655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91136BB418F255C000161655 /* THUISlider */;
+			targetProxy = 91136BDB18F255C000161655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91136BC118F255C000161655 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91136BC218F255C000161655 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91136BCA18F255C000161655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91136BCB18F255C000161655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91136BE018F255C000161655 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91136BE118F255C000161655 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91136BE518F255C000161655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91136BE618F255C000161655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91136BE818F255C000161655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THUISlider/THUISlider-Prefix.pch";
+				INFOPLIST_FILE = "THUISlider/THUISlider-Info.plist";
+				PRODUCT_NAME = THUISlider;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91136BE918F255C000161655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THUISlider/THUISlider-Prefix.pch";
+				INFOPLIST_FILE = "THUISlider/THUISlider-Info.plist";
+				PRODUCT_NAME = THUISlider;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91136BEB18F255C000161655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/THUISlider.app/THUISlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THUISlider/THUISlider-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "THUISliderTests/THUISliderTests-Info.plist";
+				PRODUCT_NAME = THUISliderTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91136BEC18F255C000161655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/THUISlider.app/THUISlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THUISlider/THUISlider-Prefix.pch";
+				INFOPLIST_FILE = "THUISliderTests/THUISliderTests-Info.plist";
+				PRODUCT_NAME = THUISliderTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91136BB018F255C000161655 /* Build configuration list for PBXProject "THUISlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91136BE518F255C000161655 /* Debug */,
+				91136BE618F255C000161655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91136BE718F255C000161655 /* Build configuration list for PBXNativeTarget "THUISlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91136BE818F255C000161655 /* Debug */,
+				91136BE918F255C000161655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91136BEA18F255C000161655 /* Build configuration list for PBXNativeTarget "THUISliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91136BEB18F255C000161655 /* Debug */,
+				91136BEC18F255C000161655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91136BAD18F255C000161655 /* Project object */;
+}
