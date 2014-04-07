@@ -23,9 +23,8 @@
 
 @property (nonatomic, strong) UIImage *thumbImage;
 
-/* the value from 0 to 1.0, and default is 0.1 */
+/* the value from 0 to 1.0 */
 @property (nonatomic, assign) CGFloat progressValue;
-/* the value from 0 to 1.0, and defautl value is 0.5 */
 @property (nonatomic, assign) CGFloat bufferValue;
 
 /**

@@ -87,9 +87,6 @@
         _trackBufferedColor = [UIColor blueColor];
         _trackProgressColor = RED_D14242;
         
-        _progressValue = 0.1;
-        _bufferValue = 0.4;
-       
         self.thumbImage = [UIImage imageNamed:@"thumb"];
         
         CGRect imageViewBounds = CGRectMake(0, 0, CGRectGetHeight(frame), CGRectGetHeight(frame));
